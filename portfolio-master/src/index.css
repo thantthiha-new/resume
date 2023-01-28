@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animation-bounce {
+  animation: fade-in-up;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+  .animate-fiu {
+  @apply animation-bounce;
+ }
+@layer components {
+ 
+  
+  .sidebar-icon {
+      @apply relative flex items-center justify-center 
+             h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
+             bg-pink-900 text-white
+             hover:bg-white hover:text-primary
+             rounded-3xl hover:rounded-xl
+             transition-all duration-300 ease-linear
+             cursor-pointer;
+  }
+
+  .software-icon {
+    @apply relative flex items-center justify-center 
+           md:h-20 md:w-20 mt-2 mb-2 mx-auto
+           bg-white text-pink-900
+           hover:bg-white hover:text-primary
+           transition-all duration-300 ease-linear
+           cursor-pointer;
+}
+
+  .buttons {
+    @apply relative flex items-center justify-center 
+           h-12 w-auto p-4 mt-5 mb-2 mx-auto shadow-pink-300
+           font-bold
+           bg-pink-300 text-white
+           hover:bg-white hover:text-pink-500
+           rounded-2xl hover:rounded-xl
+           transition-all duration-300 ease-linear
+           cursor-pointer;           
+}
+.footerButtons {
+  @apply relative flex items-center justify-center 
+         h-12 w-12 mx-5 my-2 shadow-lg
+         font-bold
+         bg-pink-300 text-white
+         hover:bg-white hover:text-primary
+         rounded-xl hover:rounded-md
+         transition-all duration-300 ease-linear
+         cursor-pointer;
+
+
+}
+}
+/* body {
+  background-color: #000300;
+} */
+
