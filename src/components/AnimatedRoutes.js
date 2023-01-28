@@ -2,7 +2,6 @@ import React from 'react'
 import {Route, Switch, useLocation} from 'react-router-dom';
 import Home from "../webpages/Home";
 import Profile from "../webpages/Profile";
-import Resume from "../webpages/Resume";
 import Information from "../webpages/Information";
 import {AnimatePresence } from "framer-motion";
 function AnimatedRoutes() {
@@ -16,9 +15,6 @@ function AnimatedRoutes() {
       </Route>
       <Route path="/profile">
           <Profile />
-      </Route>
-      <Route path="/resume">
-          <Resume />
       </Route>
       <Route path="/info">
           <Information />

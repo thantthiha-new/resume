@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 function Home() {
   return (
     <motion.div 
-    className="text-secondary"
+    className="text-pink-900"
     initial={{opacity: 0}}
     animate={{opacity: 1}}
     exit={{opacity: 1 , transition: {duration: 0.1} }} 

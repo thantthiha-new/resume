@@ -11,7 +11,7 @@ function Profile() {
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 '>
         <img className='w-[500px] mx-auto my-4 shadow-lg rounded-full' src={Styx2} alt='/' />
         <div className='flex flex-col justify-center px-4'>
-            <p className='text-secondary font-serif text-4xl'>About Me</p>
+            <p className='text-pink-900 font-serif text-4xl'>About Me</p>
             <p className='md:text-xl sm:text-3xl text-xl font-bold py-2 text-gray-800'>Diploma in Business and Information Technology</p>
             <p className='font-thin'>
                 I have experience in Business and IT as my Diploma suggests.
@@ -21,7 +21,7 @@ function Profile() {
         </div>
     </div>
     <div class="max-w-[1240px] mx-auto my-10 grid ">
-    <p className='flex justify-center text-xl text-pink-300 font-sans font-bold'>Here are some technologies I am proficient with:</p>
+    <p className='flex justify-center text-xl text-pink-900 font-sans font-bold'>Here are some technologies I am proficient with:</p>
     </div>
   <div class="max-w-[1240px] mx-auto my-10 grid grid-cols-8 gap-4 ">
   <div className='flex flex-col flex-nowrap bg-white-100 rounded-xl shadow-lg p-2 hover:animate-pulse'><SoftwareIcon icon={<SiTailwindcss size="50" />} /><p className='mx-auto font-thin md:text-xl'>Tailwind</p></div>

@@ -17,7 +17,7 @@ function Information() {
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <img  className='w-[500px] mx-auto my-4 shadow-lg' src={IU} alt='/' />
         <div className='flex flex-col justify-center px-4'>
-            <p className='text-secondary font-serif text-4xl'>Extra information about me</p>
+            <p className='text-pink-900 font-serif text-4xl'>Extra information about me</p>
             <p className='md:text-xl sm:text-3xl text-xl font-bold py-2 text-gray-800'>I enjoy a plethora of hobbies</p>
             <p className='font-thin p-1'>
                 First of all, I love to draw and design, though there is a lot of room for improvement;
