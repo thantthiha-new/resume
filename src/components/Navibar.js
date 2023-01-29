@@ -16,7 +16,7 @@ const Navibar = () => {
       <div className='hidden md:flex flex-col fixed top-0 left-0 h-screen w-16 m-0 bg-transparent text-secondary'>
       <Link title="Home" to='/'><SideBarIcon icon={<AiFillHome size="28" />} /></Link>
       <Link title="Profile" to='/profile'><SideBarIcon icon={<CgProfile size="28" />} /></Link>
-      <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link'><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
+      <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link'target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
       <Link title="Extra Information" to='/info'><SideBarIcon icon={<HiOutlineInformationCircle size="32"/>} /></Link>
       </div>
       <div onClick={handleNav} className=" md:hidden p-5 ">
@@ -26,7 +26,7 @@ const Navibar = () => {
       <div>
       <Link title="Home" to='/'><SideBarIcon icon={<AiFillHome size="28" />} /></Link>
       <Link title="Profile" to='/profile'><SideBarIcon icon={<CgProfile size="28" />} /></Link>
-      <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link'><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
+      <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link'target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
       <Link title="Extra Information" to='/info'><SideBarIcon icon={<HiOutlineInformationCircle size="32"/>} /></Link>
       </div>
       </div>
