@@ -1,11 +1,12 @@
 import React from 'react'
-import IU from '../assets/IU.jpg';
+import IU from '../assets/IU1.jpg';
 import ColorJisoo from '../assets/ColorJisoo.jpg';
 import JiSoo from '../assets/Jisoo1.jpg';
 import JiSoo2 from '../assets/Jisoo2.jpg';
-import  Lebron from '../assets/Lebron.jpg';
-import Sketch from '../assets/Sketch.jpg';
-import Nana from '../assets/Nana.jpg';
+import  Hanni from '../assets/Hanni.jpg';
+import Kazuha from '../assets/Kazuha.jpg';
+import Me from '../assets/ThantThiha.jpg';
+
 import {motion} from 'framer-motion';
 
 function Information() {
@@ -15,7 +16,7 @@ function Information() {
     animate={{opacity: 1}}
     exit={{opacity: 1 , transition: {duration: 0.1} }}   className='w-full h-auto bg-white py-10 px-4 mb-16'>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={IU} alt='/' />
+        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={ColorJisoo} alt='/' />
         <div className='flex flex-col justify-center px-4'>
             <p className='text-pink-900 font-serif text-4xl'>Extra information about me</p>
             <p className='md:text-xl sm:text-3xl text-xl font-bold py-2 text-gray-800'>I enjoy a plethora of hobbies</p>
@@ -35,8 +36,6 @@ function Information() {
             </p>
             <p className='font-thin p-1'>
                 I enjoy singing as well.
-                I'd like to think I have a pretty good voice.
-                Maybe, you can invite me to 'Sing K' .
             </p>
             
         </div>
@@ -46,17 +45,17 @@ function Information() {
     <div class="flex flex-wrap -m-1 md:-m-2">
       <div class="flex flex-wrap w-1/3">
         <div class="w-full p-1 md:p-2">
+        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={IU} alt='/' />
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/3">
+        <div class="w-full p-1 md:p-2">
         <img  className='w-[500px] mx-auto my-4 shadow-lg' src={JiSoo} alt='/' />
         </div>
       </div>
       <div class="flex flex-wrap w-1/3">
         <div class="w-full p-1 md:p-2">
-        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={ColorJisoo} alt='/' />
-        </div>
-      </div>
-      <div class="flex flex-wrap w-1/3">
-        <div class="w-full p-1 md:p-2">
-        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={Lebron} alt='/' />
+        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={Kazuha} alt='/' />
         </div>
       </div>
       <div class="flex flex-wrap w-1/3">
@@ -66,12 +65,12 @@ function Information() {
       </div>
       <div class="flex flex-wrap w-1/3">
         <div class="w-full p-1 md:p-2">
-        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={Sketch} alt='/' />
+        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={Hanni} alt='/' />
         </div>
       </div>
       <div class="flex flex-wrap w-1/3">
         <div class="w-full p-1 md:p-2">
-        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={Nana} alt='/' />
+        <img  className='w-[500px] mx-auto my-4 shadow-lg' src={Me} alt='/' />
         </div>
       </div>
     </div>
