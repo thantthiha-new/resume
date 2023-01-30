@@ -22,7 +22,7 @@ const Navibar = () => {
       <div onClick={handleNav} className="md:hidden p-5 fixed left-0 top-0 w-16 mb-2">
                 {!nav ?  <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} /> }
       </div>
-      <div className={!nav ?  "fixed left-[-100%]": "fixed left-0 top-10 w-16 h-full p-2 bg-transparent ease-in-out duration-100 md:hidden"}>
+      <div className={!nav ?  "fixed top-[-100%]": "fixed left-0 top-10 w-16 h-full p-2 bg-transparent ease-in-out duration-100 md:hidden"}>
       <div >
       <Link title="Home" to='/'><SideBarIcon icon={<AiFillHome size="28" />} /></Link>
       <Link title="Profile" to='/profile'><SideBarIcon icon={<CgProfile size="28" />} /></Link>
