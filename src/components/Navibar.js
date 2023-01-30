@@ -19,14 +19,14 @@ const Navibar = () => {
       <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link'target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
       <Link title="Extra Information" to='/info'><SideBarIcon icon={<HiOutlineInformationCircle size="32"/>} /></Link>
       </div>
-      <div onClick={handleNav} className=" md:hidden p-5 ">
+      <div onClick={handleNav} className="md:hidden p-5 fixed left-0 top-0 w-16 mb-2">
                 {!nav ?  <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} /> }
       </div>
-      <div className={!nav ?  "fixed left-[-100%]": "fixed left-0 top-0 w-auto h-full p-2 border-r bg-white shadow-lg ease-in-out duration-100 sm:hidden"}>
-      <div>
+      <div className={!nav ?  "fixed left-[-100%]": "fixed left-0 top-10 w-16 h-full p-2 bg-transparent ease-in-out duration-100 md:hidden"}>
+      <div >
       <Link title="Home" to='/'><SideBarIcon icon={<AiFillHome size="28" />} /></Link>
       <Link title="Profile" to='/profile'><SideBarIcon icon={<CgProfile size="28" />} /></Link>
-      <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link'target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
+      <a title="Resume" href='https://drive.google.com/file/d/1WtYfdpnAINO46-uLmse_ruiYNQuGDOat/view?usp=share_link' target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
       <Link title="Extra Information" to='/info'><SideBarIcon icon={<HiOutlineInformationCircle size="32"/>} /></Link>
       </div>
       </div>

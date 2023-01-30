@@ -23,7 +23,7 @@ function Profile() {
     <div class="max-w-[1240px] mx-auto my-10 grid ">
     <p className='flex justify-center text-xl text-pink-900 font-sans font-bold'>Here are some technologies I am proficient with:</p>
     </div>
-  <div class="max-w-[1240px] mx-auto my-10 grid grid-cols-8 gap-4 ">
+  <div class="max-w-[1240px] mx-auto my-10 md:grid-cols-8 sm:grid grid-cols-2 gap-2">
   <div className='flex flex-col flex-nowrap bg-white-100 rounded-xl shadow-lg p-2 hover:animate-pulse'><SoftwareIcon icon={<SiTailwindcss size="50" />} /><p className='mx-auto font-thin md:text-xl'>Tailwind</p></div>
   <div className='flex flex-col flex-nowrap bg-white-100 rounded-xl shadow-lg p-2 hover:animate-pulse'><SoftwareIcon icon={<SiHtml5 size="50" />} /><p className='mx-auto font-thin md:text-xl'>HTML</p></div>
   <div className='flex flex-col flex-nowrap bg-white-100 rounded-xl shadow-lg p-2 hover:animate-pulse'><SoftwareIcon icon={<SiJavascript size="50" />} /><p className='mx-auto font-thin md:text-xl'>JavaScript</p></div>
