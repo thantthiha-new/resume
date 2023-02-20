@@ -6,10 +6,23 @@
   animation: fade-in-up;
   animation-duration: 1s;
   animation-timing-function: ease;
-}
+};
   .animate-fiu {
   @apply animation-bounce;
- }
+ };
+.hide{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+};
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+};
+
 @layer components {
  
   
@@ -54,6 +67,8 @@
 
 
 }
+
+
 }
 /* body {
   background-color: #000300;
