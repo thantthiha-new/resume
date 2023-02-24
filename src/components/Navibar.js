@@ -26,7 +26,7 @@ const Navibar = () => {
       <div >
       <Link title="Home" to='/'><SideBarIcon icon={<AiFillHome size="28" />} /></Link>
       <Link title="Profile" to='/profile'><SideBarIcon icon={<CgProfile size="28" />} /></Link>
-      <a title="Resume" href='https://drive.google.com/file/d/1k5oHVLLr9XAG9ZiTZIFbeGuG_WxCnfhx/view?usp=sharing' target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
+      <a title="Resume" href='https://drive.google.com/file/d/1k5oHVLLr9XAG9ZiTZIFbeGuG_WxCnfhx/view' target="_blank" rel="noopener noreferrer"><SideBarIcon icon={<IoNewspaperOutline size="30" />} /></a>
       <Link title="Extra Information" to='/info'><SideBarIcon icon={<HiOutlineInformationCircle size="32"/>} /></Link>
       </div>
       </div>
